@@ -462,7 +462,7 @@ def start_server():
             default_arguments = default_profiles[display_mode]
             if clipboard:
                 default_arguments.append("-clipboard")
-                default_arguments.append("-primary")
+                default_arguments.append("-noprimary")
             else:
                 default_arguments.append("-noclipboard")
                 default_arguments.append("-noprimary")
