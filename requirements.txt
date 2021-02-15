@@ -1,0 +1,7 @@
+pygame #Verion 2. The latest.
+pywin32
+winshell
+Pillow
+imtools
+keyboard
+wheel
